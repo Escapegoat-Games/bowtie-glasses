@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bowtieglasses_head.png-e046e5576b9192f7f9c802e8dbab3dc9.stex"
+path="res://.import/bowtieglasses_hand.png-80d6902460b2f813d96b6d74469262ac.stex"
 
 [deps]
 
-source_file="res://bowtieglasses_head.png"
-dest_files=[ "res://.import/bowtieglasses_head.png-e046e5576b9192f7f9c802e8dbab3dc9.stex" ]
+source_file="res://Textures/bowtieglasses_hand.png"
+dest_files=[ "res://.import/bowtieglasses_hand.png-80d6902460b2f813d96b6d74469262ac.stex" ]
 
 [params]
 

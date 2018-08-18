@@ -57,7 +57,7 @@ func _process(delta):
 				state = State.MOVING
 		if Input.is_action_pressed("jump") and is_on_floor():
 			state = State.JUMPING
-			velocity += Vector2(0, -500)
+			velocity += Vector2(0, -800)
 			ani.play("JumpInit")
 		
 	move_and_slide(velocity, NORM)
