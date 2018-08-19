@@ -210,7 +210,15 @@ body_texture = ExtResource( 4 )
 
 [node name="Interactable_" parent="." index="3" instance=ExtResource( 5 )]
 
-[node name="Player" type="KinematicBody2D" parent="." index="4"]
+dialogue = [ "This is a plant.#@ You idiot.#@", "duurr" ]
+
+[node name="Interactable_2" parent="." index="4" instance=ExtResource( 5 )]
+
+position = Vector2( 0, -545 )
+_sections_unfolded = [ "Transform", "Visibility" ]
+dialogue = [ "This is also a plant.#@ You stupid idiot.#@" ]
+
+[node name="Player" type="KinematicBody2D" parent="." index="5"]
 
 editor/display_folded = true
 position = Vector2( 0, -300 )
@@ -290,7 +298,7 @@ anims/JumpInit = SubResource( 3 )
 anims/Walk = SubResource( 4 )
 blend_times = [  ]
 
-[node name="Cursor" type="Sprite" parent="." index="5"]
+[node name="Cursor" type="Sprite" parent="." index="6"]
 
 editor/display_folded = true
 scale = Vector2( 0.5, 0.5 )
@@ -323,7 +331,7 @@ playback_speed = 1.0
 anims/Flash = SubResource( 6 )
 blend_times = [  ]
 
-[node name="HUD" type="CanvasLayer" parent="." index="6"]
+[node name="HUD" type="CanvasLayer" parent="." index="7"]
 
 layer = 1
 offset = Vector2( 0, 0 )
@@ -334,6 +342,7 @@ script = ExtResource( 14 )
 
 [node name="UIBox" type="NinePatchRect" parent="HUD" index="0"]
 
+visible = false
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -374,7 +383,6 @@ size_flags_horizontal = 1
 size_flags_vertical = 4
 custom_fonts/font = SubResource( 7 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "hello world this is jonny"
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1

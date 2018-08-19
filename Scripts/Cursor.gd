@@ -9,11 +9,12 @@ func _ready():
 	pass
 
 func _process(delta):
+	
 	if not is_examining:
 		position = get_global_mouse_position()
 	
 	# click
-	if Input.is_action_just_pressed("shoot"):
+	if Input.is_action_just_pressed("shoot") and not is_examining:
 		is_examining = true
 		ani.play("Flash")
 

@@ -29,6 +29,10 @@ func _ready():
 	pass
 	
 func _physics_process(delta):
+	
+	if not GameManager.game_state == GameManager.GameState.PLAYING:
+		return
+	
 	if is_on_floor():
 		velocity.y = 0
 		state = State.IDLE
@@ -36,6 +40,9 @@ func _physics_process(delta):
 		velocity.y += GRAVITY
 
 func _process(delta):
+	
+	if not GameManager.game_state == GameManager.GameState.PLAYING:
+		return
 	
 	# movement
 	if Input.is_action_pressed("dash"):
