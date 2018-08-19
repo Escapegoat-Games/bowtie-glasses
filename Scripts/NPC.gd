@@ -18,8 +18,15 @@ func _ready():
 func _process(delta):
 	if Input.is_action_just_pressed("shoot") and is_selected and GameManager.game_state == GameManager.GameState.PLAYING:
 		UIManager.load_text(dialogue)
-
-
+		
+		# face player
+		var player = get_node("/root/Main/Player")
+		if position.x > player.position.x:
+			head_sprite.flip_h = true
+			body_sprite.flip_h = true
+		else:
+			head_sprite.flip_h = false
+			body_sprite.flip_h = false
 
 func _on_Area2D_area_entered(area):
 	is_selected = true
