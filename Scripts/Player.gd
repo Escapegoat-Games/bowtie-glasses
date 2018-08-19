@@ -11,7 +11,7 @@ onready var ani = $AnimationPlayer
 
 const WALK_SPEED = 300
 const RUN_SPEED = 800
-const GRAVITY = 10
+const GRAVITY = 30
 const NORM = Vector2(0, -1)
 
 var speed = WALK_SPEED

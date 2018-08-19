@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/floor.png-133f562db8829bcb2781e0a287bcf760.stex"
+path="res://.import/lamp01.png-be0d4402e34ad73788f32306e4fe98eb.stex"
 
 [deps]
 
-source_file="res://Textures/BG/floor.png"
-dest_files=[ "res://.import/floor.png-133f562db8829bcb2781e0a287bcf760.stex" ]
+source_file="res://Textures/BG/lamp01.png"
+dest_files=[ "res://.import/lamp01.png-be0d4402e34ad73788f32306e4fe98eb.stex" ]
 
 [params]
 
@@ -16,7 +16,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

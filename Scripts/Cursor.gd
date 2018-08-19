@@ -5,7 +5,7 @@ onready var ani = $AnimationPlayer
 var is_examining = false
 
 func _ready():
-	#reset()
+	reset()
 	pass
 
 func _process(delta):
@@ -14,12 +14,10 @@ func _process(delta):
 	
 	# click
 	if Input.is_action_just_pressed("shoot"):
-		
-		reset()
 		is_examining = true
 		ani.play("Flash")
 
 func reset():
 	is_examining = false
 	visible = true
-	texture = load("res://Textures/cursor.png")
+	texture = load("res://Textures/UI/cursor.png")

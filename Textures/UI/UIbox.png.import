@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/floor.png-133f562db8829bcb2781e0a287bcf760.stex"
+path="res://.import/UIbox.png-1bcbced46270f30dced6b8088f148b4d.stex"
 
 [deps]
 
-source_file="res://Textures/BG/floor.png"
-dest_files=[ "res://.import/floor.png-133f562db8829bcb2781e0a287bcf760.stex" ]
+source_file="res://Textures/UI/UIbox.png"
+dest_files=[ "res://.import/UIbox.png-1bcbced46270f30dced6b8088f148b4d.stex" ]
 
 [params]
 
@@ -16,7 +16,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
