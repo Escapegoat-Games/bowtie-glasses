@@ -21,7 +21,7 @@ LoadUp="*res://Scripts/LoadUp.gd"
 [display]
 
 window/stretch/mode="2d"
-window/stretch/aspect="expand"
+window/stretch/aspect="keep"
 
 [input]
 

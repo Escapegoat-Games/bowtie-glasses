@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bowtieglasses_head.png-7508f6734e7bd5999794557da4a3c8e2.stex"
+path="res://.import/stache_head.png-345baee8cca774f40c57cdb80f543989.stex"
 
 [deps]
 
-source_file="res://Textures/bowtieglasses_head.png"
-dest_files=[ "res://.import/bowtieglasses_head.png-7508f6734e7bd5999794557da4a3c8e2.stex" ]
+source_file="res://Textures/People/stache_head.png"
+dest_files=[ "res://.import/stache_head.png-345baee8cca774f40c57cdb80f543989.stex" ]
 
 [params]
 
