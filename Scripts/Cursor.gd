@@ -13,8 +13,20 @@ func _process(delta):
 	if not is_examining:
 		position = get_global_mouse_position()
 	
+	var active_exists = false
+	for obj in get_tree().get_nodes_in_group("Interactable"):
+		if obj.is_selected:
+			active_exists = true
+			break
+	
+	# change color when on obj
+	if active_exists:
+		modulate = Color(1, 1, 0)
+	else:
+		modulate = Color(1, 1, 1)
+	
 	# click
-	if Input.is_action_just_pressed("shoot") and not is_examining:
+	if Input.is_action_just_pressed("shoot") and not is_examining and active_exists:
 		is_examining = true
 		ani.play("Flash")
 

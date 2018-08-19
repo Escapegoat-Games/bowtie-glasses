@@ -109,6 +109,7 @@ script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
 head_texture = null
 body_texture = null
+dialogue = null
 
 [node name="Sprites" type="Node2D" parent="." index="0"]
 
