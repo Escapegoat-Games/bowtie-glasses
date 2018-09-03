@@ -3,7 +3,7 @@ extends CanvasLayer
 onready var dialogue_text = $UIBox/Dialogue
 onready var dialogue_box = $UIBox
 
-const NORM_COOLDOWN = 3
+const NORM_COOLDOWN = 2
 const PAUSE_COOLDOWN = 10
 var cooldown = NORM_COOLDOWN
 var curr_cooldown = cooldown
