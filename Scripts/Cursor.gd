@@ -1,3 +1,7 @@
+"""
+Cursor for examining npcs and objects
+"""
+
 extends Sprite
 
 onready var ani = $AnimationPlayer

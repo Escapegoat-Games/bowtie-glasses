@@ -1,3 +1,7 @@
+"""
+NPC
+"""
+
 extends Node2D
 
 export(Texture) var head_texture

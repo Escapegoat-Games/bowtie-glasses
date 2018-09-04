@@ -1,3 +1,7 @@
+"""
+Examinable object
+"""
+
 extends Sprite
 
 export(Array, String) var dialogue
