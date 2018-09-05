@@ -66,6 +66,15 @@ func _process(delta):
 			state = State.JUMPING
 			velocity += Vector2(0, -800)
 			ani.play("JumpInit")
+	else:
+		# air movement
+		if Input.is_action_pressed("move_right"):
+			velocity.x += WALK_SPEED / 10
+		elif Input.is_action_pressed("move_left"):
+			velocity.x += -WALK_SPEED / 10
+		
+		if velocity.x != 0:
+			velocity.x = velocity.x/abs(velocity.x) * min(abs(velocity.x), speed)
 		
 	move_and_slide(velocity, NORM)
 	
