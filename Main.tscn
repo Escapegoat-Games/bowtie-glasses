@@ -24,7 +24,7 @@
 render_priority = 0
 trail_divisor = 1
 emission_shape = 2
-emission_box_extents = Vector3( 1000, 1, 1 )
+emission_box_extents = Vector3( 1400, 1, 1 )
 flag_align_y = false
 flag_rotate_y = false
 flag_disable_z = true
@@ -57,6 +57,7 @@ anim_speed_random = 0.0
 anim_offset = 0.0
 anim_offset_random = 0.0
 anim_loop = false
+_sections_unfolded = [ "Emission Shape" ]
 
 [sub_resource type="CapsuleShape2D" id=2]
 
@@ -207,7 +208,7 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="RainParticles" type="Particles2D" parent="Weather" index="0"]
 
-position = Vector2( 0, -600 )
+position = Vector2( 0, -800 )
 emitting = false
 amount = 300
 lifetime = 30.0
@@ -226,7 +227,7 @@ texture = ExtResource( 2 )
 normal_map = null
 h_frames = 1
 v_frames = 1
-_sections_unfolded = [ "Drawing", "Process Material", "Textures", "Time", "Transform" ]
+_sections_unfolded = [ "Process Material", "Transform" ]
 
 [node name="BG" type="TileMap" parent="." index="1"]
 
@@ -271,8 +272,6 @@ tile_data = PoolIntArray( -393235, 0, 0, -393234, 0, 0, -393233, 0, 0, -393232, 
 
 [node name="NPCs" type="Node2D" parent="." index="3"]
 
-editor/display_folded = true
-
 [node name="NPC_1" parent="NPCs" index="0" groups=[
 "Interactable",
 ] instance=ExtResource( 4 )]
@@ -280,6 +279,8 @@ editor/display_folded = true
 head_texture = ExtResource( 5 )
 body_texture = ExtResource( 6 )
 dialogue = [ "Ew#...@ Get away from me you stinky piece of garbage." ]
+serial_thoughts = [ "1111", "2222", "3333", "4", "5" ]
+npc_name = "hi"
 
 [node name="Interactables" type="Node2D" parent="." index="4"]
 
@@ -336,6 +337,7 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="Camera2D" type="Camera2D" parent="Player" index="2"]
 
+offset = Vector2( 0, -200 )
 anchor_mode = 1
 rotating = false
 current = true
@@ -377,7 +379,7 @@ editor/display_folded = true
 scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 12 )
 script = ExtResource( 13 )
-_sections_unfolded = [ "Transform", "Visibility" ]
+_sections_unfolded = [ "Transform", "Z Index" ]
 
 [node name="Area2D" type="Area2D" parent="Cursor" index="0"]
 
@@ -416,6 +418,7 @@ script = ExtResource( 16 )
 
 [node name="UIBox" type="NinePatchRect" parent="HUD" index="0"]
 
+editor/display_folded = true
 visible = false
 anchor_left = 0.0
 anchor_top = 0.0
@@ -437,7 +440,7 @@ patch_margin_left = 30
 patch_margin_top = 10
 patch_margin_right = 30
 patch_margin_bottom = 10
-_sections_unfolded = [ "Patch Margin", "Rect" ]
+_sections_unfolded = [ "Patch Margin" ]
 
 [node name="Dialogue" type="Label" parent="HUD/UIBox" index="0"]
 
