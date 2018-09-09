@@ -1,28 +1,27 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=15 format=2]
 
-[ext_resource path="res://Textures/BG/floor.png" type="Texture" id=1]
-[ext_resource path="res://Textures/BG/table.png" type="Texture" id=2]
-[ext_resource path="res://Textures/BG/box.png" type="Texture" id=3]
-[ext_resource path="res://Textures/BG/wall.png" type="Texture" id=4]
-[ext_resource path="res://Textures/BG/stairs.png" type="Texture" id=5]
-[ext_resource path="res://Textures/BG/lamp01.png" type="Texture" id=6]
-[ext_resource path="res://Textures/BG/drawer.png" type="Texture" id=7]
-[ext_resource path="res://Textures/BG/portrait_1.png" type="Texture" id=8]
-[ext_resource path="res://Textures/BG/portrait_2.png" type="Texture" id=9]
-[ext_resource path="res://Textures/BG/door_bottom.png" type="Texture" id=10]
-[ext_resource path="res://Textures/BG/door_top.png" type="Texture" id=11]
-[ext_resource path="res://Textures/BG/white_wall.png" type="Texture" id=12]
-[ext_resource path="res://Textures/BG/doorway.png" type="Texture" id=13]
+[ext_resource path="res://Textures/BG_vec/floor.svg" type="Texture" id=1]
+[ext_resource path="res://Textures/BG_vec/table.svg" type="Texture" id=2]
+[ext_resource path="res://Textures/BG_vec/box.svg" type="Texture" id=3]
+[ext_resource path="res://Textures/BG_vec/wall.svg" type="Texture" id=4]
+[ext_resource path="res://Textures/BG_vec/stairs.svg" type="Texture" id=5]
+[ext_resource path="res://Textures/BG_vec/drawer.svg" type="Texture" id=6]
+[ext_resource path="res://Textures/BG_vec/portrait_01.svg" type="Texture" id=7]
+[ext_resource path="res://Textures/BG_vec/portrait_02.svg" type="Texture" id=8]
+[ext_resource path="res://Textures/BG_vec/door_lo.svg" type="Texture" id=9]
+[ext_resource path="res://Textures/BG_vec/door_hi.svg" type="Texture" id=10]
+[ext_resource path="res://Textures/BG_vec/doorway.svg" type="Texture" id=11]
+[ext_resource path="res://Textures/BG_vec/window.svg" type="Texture" id=12]
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 110, 110 )
+extents = Vector2( 89, 89 )
 
 [sub_resource type="CircleShape2D" id=2]
 
 custom_solver_bias = 0.0
-radius = 100.0
+radius = 90.0
 
 [node name="Node2D" type="Node2D" index="0"]
 
@@ -49,25 +48,10 @@ shape = SubResource( 1 )
 
 [node name="Table" type="Sprite" parent="." index="1"]
 
-editor/display_folded = true
 position = Vector2( 200, 0 )
 scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 2 )
 _sections_unfolded = [ "Transform" ]
-
-[node name="StaticBody2D" type="StaticBody2D" parent="Table" index="0"]
-
-input_pickable = false
-collision_layer = 1
-collision_mask = 1
-constant_linear_velocity = Vector2( 0, 0 )
-constant_angular_velocity = 0.0
-friction = 1.0
-bounce = 0.0
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Table/StaticBody2D" index="0"]
-
-shape = SubResource( 1 )
 
 [node name="Box" type="Sprite" parent="." index="2"]
 
@@ -125,56 +109,61 @@ _sections_unfolded = [ "Transform" ]
 
 position = Vector2( 1000, 0 )
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 6 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Drawer" type="Sprite" parent="." index="6"]
 
 position = Vector2( 1200, 0 )
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 7 )
+texture = ExtResource( 6 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Portrait01" type="Sprite" parent="." index="7"]
 
 position = Vector2( 0, 200 )
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 8 )
+texture = ExtResource( 7 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Portrait02" type="Sprite" parent="." index="8"]
 
 position = Vector2( 200, 200 )
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 9 )
+texture = ExtResource( 8 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="DoorBottom" type="Sprite" parent="." index="9"]
 
 position = Vector2( 400, 200 )
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 10 )
+texture = ExtResource( 9 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="DoorTop" type="Sprite" parent="." index="10"]
 
 position = Vector2( 600, 200 )
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 11 )
+texture = ExtResource( 10 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="WallAlt" type="Sprite" parent="." index="11"]
 
 position = Vector2( 800, 200 )
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 12 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Doorway" type="Sprite" parent="." index="12"]
 
 position = Vector2( 1000, 200 )
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 13 )
+texture = ExtResource( 11 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Window" type="Sprite" parent="." index="13"]
+
+position = Vector2( 1200, 200 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 12 )
 _sections_unfolded = [ "Transform" ]
 
 

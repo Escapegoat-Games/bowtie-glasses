@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/white_wall.png-ed019f74464ccfd425c660038e855711.stex"
+path="res://.import/door_top.png-ab418fdb83f018b5ac9ed2ae0d74d368.stex"
 
 [deps]
 
-source_file="res://Textures/BG/white_wall.png"
-dest_files=[ "res://.import/white_wall.png-ed019f74464ccfd425c660038e855711.stex" ]
+source_file="res://Textures/BG_old/door_top.png"
+dest_files=[ "res://.import/door_top.png-ab418fdb83f018b5ac9ed2ae0d74d368.stex" ]
 
 [params]
 

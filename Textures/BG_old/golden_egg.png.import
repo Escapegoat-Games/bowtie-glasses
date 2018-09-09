@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wall.png-ba46013537a8827361222c87f40bde57.stex"
+path="res://.import/golden_egg.png-a1c3a402277bbc8578bbd94ae3cd2a7a.stex"
 
 [deps]
 
-source_file="res://Textures/BG/wall.png"
-dest_files=[ "res://.import/wall.png-ba46013537a8827361222c87f40bde57.stex" ]
+source_file="res://Textures/BG_old/golden_egg.png"
+dest_files=[ "res://.import/golden_egg.png-a1c3a402277bbc8578bbd94ae3cd2a7a.stex" ]
 
 [params]
 
@@ -16,7 +16,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/drawer.png-0663fea076dcd29c640406035a290a1c.stex"
+path="res://.import/stairs.svg-e020681fc4b2e0f99a92100a62c67915.stex"
 
 [deps]
 
-source_file="res://Textures/BG/drawer.png"
-dest_files=[ "res://.import/drawer.png-0663fea076dcd29c640406035a290a1c.stex" ]
+source_file="res://Textures/BG_vec/stairs.svg"
+dest_files=[ "res://.import/stairs.svg-e020681fc4b2e0f99a92100a62c67915.stex" ]
 
 [params]
 

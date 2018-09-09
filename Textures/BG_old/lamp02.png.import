@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/flowers.png-9a2dda441147a19137b4f2ef71e38373.stex"
+path="res://.import/lamp02.png-675c8f46f5cd7fdac15c98c09eac64ac.stex"
 
 [deps]
 
-source_file="res://Textures/BG/flowers.png"
-dest_files=[ "res://.import/flowers.png-9a2dda441147a19137b4f2ef71e38373.stex" ]
+source_file="res://Textures/BG_old/lamp02.png"
+dest_files=[ "res://.import/lamp02.png-675c8f46f5cd7fdac15c98c09eac64ac.stex" ]
 
 [params]
 

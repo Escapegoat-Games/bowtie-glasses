@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/portrait_2.png-cd9def03e7ff5386662e6d73ff3adc73.stex"
+path="res://.import/door_bottom.png-2a13a97f85625e4f81275afdaef3eb72.stex"
 
 [deps]
 
-source_file="res://Textures/BG/portrait_2.png"
-dest_files=[ "res://.import/portrait_2.png-cd9def03e7ff5386662e6d73ff3adc73.stex" ]
+source_file="res://Textures/BG_old/door_bottom.png"
+dest_files=[ "res://.import/door_bottom.png-2a13a97f85625e4f81275afdaef3eb72.stex" ]
 
 [params]
 

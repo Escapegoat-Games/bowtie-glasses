@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/golden_egg.png-1b7655d255d0eb88c20c9be0fd43660b.stex"
+path="res://.import/wall.svg-d984baa8ecacb97691a66823330f8015.stex"
 
 [deps]
 
-source_file="res://Textures/BG/golden_egg.png"
-dest_files=[ "res://.import/golden_egg.png-1b7655d255d0eb88c20c9be0fd43660b.stex" ]
+source_file="res://Textures/BG_vec/wall.svg"
+dest_files=[ "res://.import/wall.svg-d984baa8ecacb97691a66823330f8015.stex" ]
 
 [params]
 

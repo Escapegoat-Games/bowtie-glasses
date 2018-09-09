@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/door_bottom.png-a7d37fb98665246b0cdae94333f4e4fe.stex"
+path="res://.import/lamp01.png-992baf06ead6e2a7fc7688ed26391202.stex"
 
 [deps]
 
-source_file="res://Textures/BG/door_bottom.png"
-dest_files=[ "res://.import/door_bottom.png-a7d37fb98665246b0cdae94333f4e4fe.stex" ]
+source_file="res://Textures/BG_old/lamp01.png"
+dest_files=[ "res://.import/lamp01.png-992baf06ead6e2a7fc7688ed26391202.stex" ]
 
 [params]
 

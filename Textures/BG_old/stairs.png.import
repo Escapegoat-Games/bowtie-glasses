@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lamp02.png-f190f2c7ef28dce35d09313bbc4aad7b.stex"
+path="res://.import/stairs.png-7fa4aa2ad63fa105b5add35dec11595f.stex"
 
 [deps]
 
-source_file="res://Textures/BG/lamp02.png"
-dest_files=[ "res://.import/lamp02.png-f190f2c7ef28dce35d09313bbc4aad7b.stex" ]
+source_file="res://Textures/BG_old/stairs.png"
+dest_files=[ "res://.import/stairs.png-7fa4aa2ad63fa105b5add35dec11595f.stex" ]
 
 [params]
 

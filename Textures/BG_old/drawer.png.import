@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/table.png-9a403c6cf7c42907943b260244b16b2a.stex"
+path="res://.import/drawer.png-5703b8b57ca7c12a0359eb75ab53d3a9.stex"
 
 [deps]
 
-source_file="res://Textures/BG/table.png"
-dest_files=[ "res://.import/table.png-9a403c6cf7c42907943b260244b16b2a.stex" ]
+source_file="res://Textures/BG_old/drawer.png"
+dest_files=[ "res://.import/drawer.png-5703b8b57ca7c12a0359eb75ab53d3a9.stex" ]
 
 [params]
 
@@ -16,7 +16,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

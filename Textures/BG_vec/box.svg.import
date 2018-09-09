@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/box.png-bdebb1c4e97cd549c2fc6288a8bfd9bf.stex"
+path="res://.import/box.svg-d891e6467302f83e8b39806a30ff80f4.stex"
 
 [deps]
 
-source_file="res://Textures/BG/box.png"
-dest_files=[ "res://.import/box.png-bdebb1c4e97cd549c2fc6288a8bfd9bf.stex" ]
+source_file="res://Textures/BG_vec/box.svg"
+dest_files=[ "res://.import/box.svg-d891e6467302f83e8b39806a30ff80f4.stex" ]
 
 [params]
 
@@ -16,7 +16,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

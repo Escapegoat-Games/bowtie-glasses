@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/door_top.png-e9f6a033b308d014f3aef3b91ad02add.stex"
+path="res://.import/wall.png-0bba15457563c80f004ea1710c826a16.stex"
 
 [deps]
 
-source_file="res://Textures/BG/door_top.png"
-dest_files=[ "res://.import/door_top.png-e9f6a033b308d014f3aef3b91ad02add.stex" ]
+source_file="res://Textures/BG_old/wall.png"
+dest_files=[ "res://.import/wall.png-0bba15457563c80f004ea1710c826a16.stex" ]
 
 [params]
 
@@ -16,7 +16,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

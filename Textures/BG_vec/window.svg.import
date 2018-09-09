@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/doorway.png-d91f1b1ce66cc5714796211f1ed71690.stex"
+path="res://.import/window.svg-44669c089521a6130158ceb972095f21.stex"
 
 [deps]
 
-source_file="res://Textures/BG/doorway.png"
-dest_files=[ "res://.import/doorway.png-d91f1b1ce66cc5714796211f1ed71690.stex" ]
+source_file="res://Textures/BG_vec/window.svg"
+dest_files=[ "res://.import/window.svg-44669c089521a6130158ceb972095f21.stex" ]
 
 [params]
 

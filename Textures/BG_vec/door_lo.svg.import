@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/portrait_1.png-8d10da21c3ccbb3aeef38298e747d123.stex"
+path="res://.import/door_lo.svg-a278a52dcb368c3078381772f09a0468.stex"
 
 [deps]
 
-source_file="res://Textures/BG/portrait_1.png"
-dest_files=[ "res://.import/portrait_1.png-8d10da21c3ccbb3aeef38298e747d123.stex" ]
+source_file="res://Textures/BG_vec/door_lo.svg"
+dest_files=[ "res://.import/door_lo.svg-a278a52dcb368c3078381772f09a0468.stex" ]
 
 [params]
 
