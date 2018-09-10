@@ -1,14 +1,12 @@
 """
-Weather that follows Player
+Follows Player
 """
 
 extends Node2D
 
-onready var rain = $RainParticles
 var player
 
 func _ready():
-	rain.emitting = true
 	player = get_node("/root/Main/Player")
 
 func _process(delta):

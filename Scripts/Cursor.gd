@@ -14,7 +14,7 @@ func _ready():
 
 func _process(delta):
 	
-	if not is_examining:
+	if not is_examining and GameManager.game_state == GameManager.GameState.PLAYING:
 		position = get_global_mouse_position()
 	
 	var active_exists = false

@@ -3,6 +3,7 @@ extends Node
 enum GameState {
 	PLAYING,
 	DIALOGUE,
+	INVENTORY,
 }
 var game_state
 

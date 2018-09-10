@@ -52,7 +52,7 @@ radius = 90.0
 1/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
-"shape": SubResource( 1 ),
+"shape": null,
 "shape_transform": Transform2D( 1, 0, 0, 1, 94, 94 )
 } ]
 2/name = "Box"
@@ -173,4 +173,5 @@ radius = 90.0
 13/occluder_offset = Vector2( 94, 94 )
 13/navigation_offset = Vector2( 94, 94 )
 13/shapes = [  ]
+_sections_unfolded = [ "1", "3" ]
 
